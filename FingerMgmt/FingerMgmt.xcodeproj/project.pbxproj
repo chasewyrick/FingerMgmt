@@ -24,7 +24,7 @@
 		A5BD4D70167C0B1E00658BE3 /* touchPoint.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A5BD4D6A167BF8F500658BE3 /* touchPoint.vsh */; };
 		A5C08BFE167AC49B003ED945 /* MultitouchSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C08BFD167AC49B003ED945 /* MultitouchSupport.framework */; };
 		A5C4314816831837000EC677 /* CeedGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C4314716831837000EC677 /* CeedGL.framework */; };
-		A5C4314B168319D8000EC677 /* CeedGL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5C4314716831837000EC677 /* CeedGL.framework */; };
+		A5C4314B168319D8000EC677 /* CeedGL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5C4314716831837000EC677 /* CeedGL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A5F71D13167AA1D600FF0DF6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F71D12167AA1D600FF0DF6 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,7 +68,7 @@
 		A5BD4D6A167BF8F500658BE3 /* touchPoint.vsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = touchPoint.vsh; sourceTree = "<group>"; };
 		A5BD4D6D167C097100658BE3 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		A5C08BFD167AC49B003ED945 /* MultitouchSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultitouchSupport.framework; path = /System/Library/PrivateFrameworks/MultitouchSupport.framework; sourceTree = "<absolute>"; };
-		A5C4314716831837000EC677 /* CeedGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CeedGL.framework; path = "../../../Library/Developer/Xcode/DerivedData/FingerMgmt-anhqnncqdtyzosehvqkcojuqfbmj/Build/Products/Debug/CeedGL.framework"; sourceTree = "<group>"; };
+		A5C4314716831837000EC677 /* CeedGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CeedGL.framework; path = "../../../Library/Developer/Xcode/DerivedData/FingerMgmt-dmnnracaflmejrfdbvittpsjahol/Build/Products/Debug/CeedGL.framework"; sourceTree = "<group>"; };
 		A5F71D0E167AA1D600FF0DF6 /* FingerMgmt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerMgmt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F71D12167AA1D600FF0DF6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A5F71D15167AA1D600FF0DF6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -211,7 +211,7 @@
 		A5F71D05167AA1D600FF0DF6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "FFFF00 Agents AB";
 			};
 			buildConfigurationList = A5F71D08167AA1D600FF0DF6 /* Build configuration list for PBXProject "FingerMgmt" */;
@@ -270,7 +270,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -300,7 +299,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;

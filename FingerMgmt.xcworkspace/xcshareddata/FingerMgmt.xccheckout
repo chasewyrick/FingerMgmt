@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EE51773C-F58A-4EAA-9DD4-43C62C652395</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FingerMgmt</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>01433DAC91BB812B20A17450D3A7715FE8245134</key>
+		<string>https://github.com/rsebbe/CeedGL.git</string>
+		<key>3AFF6B76E054509C1F6BE801C34D502DBE3A9A6E</key>
+		<string>https://github.com/kgn/KGNoise.git</string>
+		<key>95633BD0F91AD4F38D779336A808752B3A818341</key>
+		<string>https://github.com/jnordberg/FingerMgmt.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FingerMgmt.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>01433DAC91BB812B20A17450D3A7715FE8245134</key>
+		<string>..CeedGL/</string>
+		<key>3AFF6B76E054509C1F6BE801C34D502DBE3A9A6E</key>
+		<string>..KGNoise/</string>
+		<key>95633BD0F91AD4F38D779336A808752B3A818341</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jnordberg/FingerMgmt.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>95633BD0F91AD4F38D779336A808752B3A818341</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>01433DAC91BB812B20A17450D3A7715FE8245134</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CeedGL</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>95633BD0F91AD4F38D779336A808752B3A818341</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FingerMgmt</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3AFF6B76E054509C1F6BE801C34D502DBE3A9A6E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KGNoise</string>
+		</dict>
+	</array>
+</dict>
+</plist>
