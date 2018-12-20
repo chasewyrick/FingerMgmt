@@ -24,7 +24,6 @@
 		A5BD4D70167C0B1E00658BE3 /* touchPoint.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A5BD4D6A167BF8F500658BE3 /* touchPoint.vsh */; };
 		A5C08BFE167AC49B003ED945 /* MultitouchSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C08BFD167AC49B003ED945 /* MultitouchSupport.framework */; };
 		A5C4314816831837000EC677 /* CeedGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C4314716831837000EC677 /* CeedGL.framework */; };
-		A5C4314B168319D8000EC677 /* CeedGL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5C4314716831837000EC677 /* CeedGL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A5F71D13167AA1D600FF0DF6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F71D12167AA1D600FF0DF6 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +34,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A5C4314B168319D8000EC677 /* CeedGL.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,8 +322,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
-					"\"../Frameworks\"",
-					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/FingerMgmt-anhqnncqdtyzosehvqkcojuqfbmj/Build/Products/Debug\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = prefix.pch;
@@ -344,8 +340,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
-					"\"../Frameworks\"",
-					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/FingerMgmt-anhqnncqdtyzosehvqkcojuqfbmj/Build/Products/Debug\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = prefix.pch;
